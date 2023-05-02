@@ -1,0 +1,5 @@
+peso = float(input("Ingrese su peso: "))
+altura = float(input("Ingrese su altura: "))
+bmi = peso / round(altura ** 2)
+result = round(bmi, 2)
+print("Tu índice de masa corporal es:", result)
